@@ -29,9 +29,7 @@ By example in the scenario where we have a custom taxonomy type for products whi
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-1. Search for "Woocommerce - Products By Custom Tax" on the WordPress Plugin directory or [download it](http://downloads.wordpress.org/plugin/woocommerce-products-by-custom-tax.zip).
+1. Search for "Woocommerce - Products By Custom Tax" on the WordPress Plugin directory from your WordPress site dashboard or [download it](https://downloads.wordpress.org/plugin/woocommerce-products-by-custom-tax.zip).
 2. Install the plugin.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 
