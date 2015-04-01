@@ -36,6 +36,8 @@ For example in the scenario where we have a custom taxonomy type for products wh
 
 == Frequently Asked Questions ==
 
+= Requirements =
+This plugin requires [WooCommerce](https://wordpress.org/plugins/woocommerce) core plugin.
 
 
 == Screenshots ==
