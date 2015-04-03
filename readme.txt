@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: woocommerce, shortcode, custom, taxonomy
 Requires at least: 3.5
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ This plugin requires [WooCommerce](https://wordpress.org/plugins/woocommerce) co
 1. The attributes
 
 == Changelog ==
+= 1.2 =
+* Misc - Prefix functions for better code standards.
+
 = 1.1 =
 * Prevent data leaks.
 * Display error message in the dashboard in case WooCommerce core theme is not installed and activated.
