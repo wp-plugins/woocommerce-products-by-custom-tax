@@ -45,7 +45,7 @@ This plugin requires [WooCommerce](https://wordpress.org/plugins/woocommerce) co
 
 = 1.1 =
 * Prevent data leaks.
-* Display error message in the dashboard in case WooCommerce core theme is not installed and activated.
+* Display error message in the dashboard in case WooCommerce core plugin is not installed and activated.
 
 = 1.0 =
 * Plugin initial release.
