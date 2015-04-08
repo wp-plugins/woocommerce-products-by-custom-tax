@@ -22,7 +22,7 @@ For example in the scenario where we have a custom taxonomy type for products wh
 * **tax_name** *(string) (required)*: The custom taxonomy slug.
 * **tax_tags** *(string) (required)*: The custom taxonomy tags slug. Accepts also multiple tags as an array separated by comma *(tax_tags="apple,samsung")*.
 * **columns** *(integer) (optional, default = 4)*: The ammount of products/colums to display per row.
-* **template** *(string) (optional, default = 'product')*: Specifies the WooCommerce template file to use for displaying products. e.g. Instead of loading the default file `/wp-content/plugins/woocommerce/templates/content-product.php` you might want to use your custom template override file `/wp-content/themes/twentyfifteen/woocommerce/content-my-custom-product-file.php`. For this case you can load the template like *(template="my-custom-product-file")*.
+* **template** *(string) (optional, default = "product")*: Specifies the WooCommerce template file to use for displaying products. e.g. Instead of loading the default file `/wp-content/plugins/woocommerce/templates/content-product.php` you might want to use your custom template override file `/wp-content/themes/twentyfifteen/woocommerce/content-my-custom-product-file.php`. For this case you can load the template like *(template="my-custom-product-file")*.
 
 
 *Pull requests for fixes, new features and enhancements are welcome on [GitHub](https://github.com/elvismdev/woocommerce-products-by-custom-tax)* ;)
