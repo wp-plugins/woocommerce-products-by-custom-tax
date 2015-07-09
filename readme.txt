@@ -3,8 +3,8 @@ Contributors: elvismdev
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YDTYTNUGMDR24
 Tags: woocommerce, shortcode, custom, taxonomy
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 1.3
+Tested up to: 4.2.2
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,13 +16,14 @@ A shortcode to display products by a custom taxonomy.
 For example in the scenario where we have a custom taxonomy type for products which is called Vendors and this one contains Apple, Samsung, LG, Motorola, Microsoft, ... as taxonomy tags elements. If we like to display only the products by Apple in a page or post, here this odd tweak plugin comes to the rescue.
 
 = Usage =
-`[woo_products_custom_tax tax_name="vendor" tax_tags="apple" columns="4" template="product"]`
+`[woo_products_custom_tax tax_name="vendor" tax_tags="apple" columns="4" template="product" qty="10"]`
 
 = Attributes =
 * **tax_name** *(string) (required)*: The custom taxonomy slug.
 * **tax_tags** *(string) (required)*: The custom taxonomy tags slug. Accepts also multiple tags as an array separated by comma *(tax_tags="apple,samsung")*.
 * **columns** *(integer) (optional, default = 4)*: The ammount of products/colums to display per row.
 * **template** *(string) (optional, default = "product")*: Specifies the WooCommerce template file to use for displaying products. e.g. Instead of loading the default file `/wp-content/plugins/woocommerce/templates/content-product.php` you might want to use your custom template override file `/wp-content/themes/twentyfifteen/woocommerce/content-my-custom-product-file.php`. For this case you can load the template like *(template="my-custom-product-file")*.
+* **qty** *(integer) (optional, default = 10)*: The max ammount of products to display per page/output.
 
 
 *Pull requests for fixes, new features and enhancements are welcome on [GitHub](https://github.com/elvismdev/woocommerce-products-by-custom-tax)* ;)
